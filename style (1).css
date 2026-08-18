@@ -1,0 +1,82 @@
+body {
+  font-family: "Segoe UI", "Trebuchet MS", sans-serif;
+  margin: 0;
+  padding: 25px;
+  color: #3CC56C;
+
+  background-color: #093816;
+} 
+
+.page-title {
+  text-align: center;
+  font-family: "Georgia", "Times New Roman", serif;
+  font-style: italic;
+  color: #0FAC30;
+  text-shadow: 1px 1px 0 #91A2D6;
+  margin: 10px 0 4px 0;
+}
+
+.page-title::before,
+.page-title::after {
+  content: "🔥";
+  margin: 0 10px;
+}
+
+.page-sub {
+  text-align: center;
+  font-size: 14px;
+  color: #3f5a3f;
+  text-shadow: 1px 1px 0 #ffffff;
+  margin: 0 0 18px 0;
+}
+
+hr {
+  border: none;
+  border-top: 2px dashed #ffffff;
+  margin-bottom: 22px;
+}
+
+.content {
+  border: 2px solid #7fbf6a;
+  border-radius: 16px;
+  padding: 18px;
+  margin-bottom: 22px;
+  background-color: rgba(255, 255, 255, 0.88);
+  box-shadow: 0 4px 10px rgba(63, 125, 63, 0.25);
+}
+
+.content h3 {
+  margin-top: 0;
+  font-size: 17px;
+  color: #3f7d3f;
+  border-bottom: 2px solid #cdeab8;
+  padding-bottom: 6px;
+}
+
+.thumb {
+  width: 140px;
+  height: 180px;
+  object-fit: cover;
+  border: 3px solid #ffffff;
+  border-radius: 12px;
+  margin: 6px 10px 6px 0;
+  box-shadow: 0 3px 8px rgba(63, 125, 63, 0.35);
+}
+
+audio {
+  width: 280px;
+  margin: 6px 0 18px 0;
+}
+
+video {
+  border: 3px solid #ffffff;
+  border-radius: 12px;
+  margin-top: 8px;
+  box-shadow: 0 3px 10px rgba(63, 125, 63, 0.35);
+}
+
+p {
+  margin: 8px 0 4px 0;
+  font-size: 14px;
+  color: #3f4f3f;
+}
